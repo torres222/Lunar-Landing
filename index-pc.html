@@ -1,0 +1,136 @@
+﻿   <!DOCTYPE html>
+<html>
+<head>
+<!--descripción-->
+ <title> Lunar Lander!! - LMSGI02 José Torné</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<!--estilo para pc-->
+ <link rel='stylesheet' href='css/pc.css'>
+ 
+ 
+<!--estilo para BARRA-->
+ <style>
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+</head>
+
+
+
+
+<body>
+<!--marcadores de combustible, velocidad y altura-->
+ <div id="nave">
+ <img src="img/nave.png" id="imgNave" alt="img nave">
+ </div>
+ <div class="a">
+ <div id="showm">show menu</div>
+ <ul id="cpanel" style="list-style-type:none">
+  <li><img src="img/speed.png" alt="speed">Velocidad <span id="velocidad">100</span> km/h</li>
+  <li><img src="img/fuel.png" alt="fuel">Combustible <span id="fuel">100</span> litros</li>
+  <li><img src="img/altura.jpg" alt="altura">Altura <span id="altura">60</span> m</li>
+ </ul>
+ </div><div class="b">
+
+
+<!--menú-->
+</div>
+<div class="c">
+ 
+ 
+ 
+<!--BARRA-->
+
+ <div class="navbar">
+  <a href="info.html">Reset</a>
+  <a href="info.html">Pause</a>
+  <div class="dropdown">
+    <button class="dropbtn">How to play
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="info.html">About</a>
+      <a href="instr.html">Instrucciones</a>
+	  
+      
+    </div>
+  </div> 
+</div>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+ 
+ 
+ 
+ 
+<!--fondo de la tierra añadido como html-->
+  <img src="img/tierra.png" id="tierra" alt="tierra">
+ </div>
+ 
+ 
+ <div class="d">
+ </div>
+ 
+ 
+</body>
+</html>
