@@ -1,6 +1,6 @@
 # Lunar Landing!!!!
 
-*Repositorio del proyecto Lunar Lander para Lenguaje de Marcas 
+*Repositorio del proyecto Lunar Landing para Lenguaje de Marcas 
 
 HTML / CSS 
 
