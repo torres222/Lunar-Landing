@@ -13,7 +13,7 @@ https://rawgit.com/torres222/Lunar-Landing/master/index.html
 
 *Tambien existe un menú con botones situado en la parte superior derecha, donde podremos acceder a información e instrucciones y en un futuro pausar el juego y reiniciarlo.
 Reset y Pause al no tener función aun, los enlazamos con la página About, donde hemos puesto algo de info+webs de ayuda consultadas.
-How to play se despliega en About e Instrucciones, donde en un futuro podremos añadir las mismas.
+How to play se despliega en About e Instrucciones donde, en un futuro, podremos añadir las mismas.
 Tanto about, como Instrucciones nos dan la opción de volver al inicio o Index.
 
 *Hemos utilizado tres documentos .html que enlazan con dos .css:
